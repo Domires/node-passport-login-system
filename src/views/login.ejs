@@ -11,6 +11,11 @@
 
 <body>
     <section id="container">
+        <% if (messages.error) { %>
+            <span style="color: #ff0000; font: bold">
+                <%= messages.error %>
+            </span>
+        <% } %>
         <div id="form-container">
             <h1>Login</h1>
             <form id="form" action="/login" method="post">
