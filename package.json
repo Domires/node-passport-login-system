@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "Domires",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^3.0.8",
     "dotenv": "^8.2.0",
